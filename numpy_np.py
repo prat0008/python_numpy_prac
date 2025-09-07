@@ -141,7 +141,7 @@ print(arr6<arr7)"""
 
 #array indexing and slicing
 import numpy as np
-arr=np.array([
+"""arr=np.array([
     [[11,12,13,14],
      [13,14,15,19]],
 
@@ -149,7 +149,7 @@ arr=np.array([
      [63,92,36,18]],
     
     [[98,32,81,23],
-     [17,18,19.5,23]]])
+     [17,18,19.5,23]]])"""
 
 #array shape
 #print(arr.shape)
@@ -171,3 +171,26 @@ arr=np.array([
 #using fewer indices
 #print(arr[1])
 #print(arr[:2,1])
+
+#other ways of creating numpy arrays
+#all zeros
+#print(np.zeros((3,2)))
+
+#all ones
+#a=np.ones([2,2,3])
+#print(a)
+
+#identity matrix
+#print(np.eye(3))
+
+#random vector
+#print(np.random.rand(5))
+
+#fixed value
+#print(np.full([2, 3], 42))
+
+#range with start,end and step
+#print(np.arange(10,90,3))
+
+#equally spaced numbers in a range
+print(np.linspace(3,27,9))
