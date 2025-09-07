@@ -120,8 +120,7 @@ print(50*'*')
 print("verification of result")
 print(arr4 + arr5_replication)"""
 
-
-#comparison operators in numpy 
+"""#comparison operators in numpy 
 import numpy as np
 arr6=np.array([[1,2,3], [3,4,5]])
 arr7=np.array([[2,2,3], [1,2,5]])
@@ -137,5 +136,38 @@ print("grtr than equal to oprtr")
 print(arr6>=arr7)  
 print(50*'*')
 print("less than oprtr")
-print(arr6<arr7)
+print(arr6<arr7)"""
 
+
+#array indexing and slicing
+import numpy as np
+arr=np.array([
+    [[11,12,13,14],
+     [13,14,15,19]],
+
+    [[15,16,17,21],
+     [63,92,36,18]],
+    
+    [[98,32,81,23],
+     [17,18,19.5,23]]])
+
+#array shape
+#print(arr.shape)
+
+#single element
+#print(arr[1,1,2])
+#print("explanation of above statement")
+#print(arr[1])
+#print(arr[1,1])
+#print(arr[1,1,2])
+
+#subarray using ranges
+#print(arr[1:,0:1,:2])
+
+#mixing indices and ranges
+#print(arr[1:,1,3])
+#print(arr[1:,1,:3])
+
+#using fewer indices
+#print(arr[1])
+#print(arr[:2,1])
