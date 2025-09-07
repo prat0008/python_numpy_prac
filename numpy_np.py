@@ -193,4 +193,4 @@ import numpy as np
 #print(np.arange(10,90,3))
 
 #equally spaced numbers in a range
-print(np.linspace(3,27,9))
+#print(np.linspace(3,27,9))
